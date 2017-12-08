@@ -69,7 +69,7 @@ function save2() {
       var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");    
 
 
-      image = file.replace(/\.[^\.]+$/, '.png');
+      image = image.replace(/\.[^\.]+$/, '.png');
 
       window.location.href=image;
   }
