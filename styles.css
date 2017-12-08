@@ -1,5 +1,5 @@
-/* Video container */
-#container {
+/* Video and canvas container */
+#container, #canvas {
     width: 500px;
     height: 375px;
     border: 10px #333 solid;
