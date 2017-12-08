@@ -34,7 +34,14 @@ h1 {
     justify-content: center;
 }
 
+/* Container surrounding the 'capture' button */
 .saveContainer {
     display: flex;
     justify-content: center;
+}
+
+/* 'capture' button */
+.saveContainer input {
+    font-size: 150%;
+    padding: 1% 3%;
 }
