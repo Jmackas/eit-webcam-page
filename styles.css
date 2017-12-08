@@ -1,17 +1,20 @@
+/* Video container */
 #container {
-    margin: 0px auto;
     width: 500px;
     height: 375px;
     border: 10px #333 solid;
 }
+
+/* Screenshot size */
 #videoElement {
     width: 500px;
     height: 375px;
     background-color: #666;
 }
+
+/* Final display of the image */
 #canvas {
     width: 500px;
     height: 375px;
-	
     background-color: #CCC;
 }
