@@ -66,17 +66,10 @@ Notes:
 
 function save2() {
 
-    var a  = document.createElement('a');
-
-    var gh = document.getElementById('canvas');
-    
-var a = gh.toDataURL();
-
-
-  a.href = gh;
-  a.download = 'image.png';
-
-  a.click()
+    var c=document.getElementById("canvas");
+    var d=c.toDataURL("image/png");
+    var w=window.open('about:blank','image from canvas');
+    w.document.write("<img src='"+d+"' alt='from canvas'/>");
   
 }
 </script>
