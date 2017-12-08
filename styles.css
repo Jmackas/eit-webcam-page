@@ -20,6 +20,12 @@
 }
 
 /* Containing both the webcam and webcam output */
-.webcam_container {
+.webcamContainer {
     display: flex;
+    justify-content: center;
+}
+
+.saveContainer {
+    display: flex;
+    justify-content: center;
 }
