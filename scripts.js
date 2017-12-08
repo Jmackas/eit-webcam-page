@@ -56,3 +56,20 @@ sel.addEventListener('change',function(e){
 function receivedText() {        
    imgtag.src = fr.result;
 }
+
+
+
+
+//////////////////////////////////
+
+
+
+function save2() {
+  
+      var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");    
+      
+      window.location.href=image;
+  
+      file = file.substr(0, file.lastIndexOf(".")) + ".png";
+    
+  }
