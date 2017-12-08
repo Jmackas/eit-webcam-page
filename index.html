@@ -66,10 +66,9 @@ Notes:
 
 function save2() {
 
-    var c=document.getElementById("canvas");
-    var d=c.toDataURL("image/png");
-    var w=window.open('about:blank','image from canvas');
-    w.document.write("<img src='"+d+"' alt='from canvas'/>");
+    var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");    
+    
+    window.location.href=image;
   
 }
 </script>
