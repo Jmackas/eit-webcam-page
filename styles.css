@@ -22,13 +22,6 @@ h1 {
     background-color: #666;
 }
 
-/* Final display of the image */
-#canvas {
-    width: 500px;
-    height: 375px;
-    background-color: #CCC;
-}
-
 /* Containing both the webcam and webcam output */
 .webcamContainer {
     display: flex;
