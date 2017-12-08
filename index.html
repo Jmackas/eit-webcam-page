@@ -65,8 +65,13 @@ Notes:
 
 
 function save2() {
+
+    var a  = document.createElement('a');
+
     var gh = document.getElementById('canvas');
+    
 var a = gh.toDataURL();
+
 
   a.href = gh;
   a.download = 'image.png';
