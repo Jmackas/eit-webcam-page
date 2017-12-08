@@ -1,45 +1,52 @@
 <!-- https://jmackas.github.io/eit-webcam-page/index.html -->
 
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Webcam Application</title>
-      <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Webcam Application</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Display Webcam Stream</title>
-  
-<style>
+    <!DOCTYPE html>
+    <html>
 
-</style>
+    <head>
+        <meta charset="utf-8">
+        <title>Display Webcam Stream</title>
 
-</head>
-  
-<body>
-<!-- Video display with frame -->
-<div id="container">
-    <video autoplay id="videoElement">
-    </video>
-</div>
+        <style>
+        </style>
 
-<br>
+    </head>
 
-<!-- Container for the screenshot -->
-<canvas id="canvas" width="500" height="375"></canvas>
+    <body>
 
-<br>
+        <div class="webcam_container">
+            <!-- Video display with frame -->
+            <div id="container">
+                <video autoplay id="videoElement">
+                </video>
+            </div>
 
-<!-- Button to capture the screen -->
-<input type="button" value="Save" id="save" />
+            <br>
 
+            <!-- Container for the screenshot -->
+            <canvas id="canvas" width="500" height="375"></canvas>
+
+            <br>
+
+            <!-- Button to capture the screen -->
+            <input type="button" value="Save" id="save" />
+
+        </div>
+
+    </body>
+
+    </html>
+    <script src="scripts.js"></script>
 </body>
-</html>
-    <script  src="scripts.js"></script>
-</body>
+
 </html>

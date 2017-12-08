@@ -18,3 +18,8 @@
     height: 375px;
     background-color: #CCC;
 }
+
+/* Containing both the webcam and webcam output */
+.webcam_container {
+    display: flex;
+}
