@@ -1,8 +1,17 @@
+/* Universal elements */
+body {
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+}
+
 /* Video and canvas container */
 #container, #canvas {
     width: 500px;
     height: 375px;
-    border: 10px #333 solid;
+    border: 3px #333 solid;
 }
 
 /* Screenshot size */
