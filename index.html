@@ -68,11 +68,8 @@ function save2() {
 
     var c=document.getElementById("canvas");
     var d=c.toDataURL("image/png");
-    w.document.write("<img id='downloadableImage' src='"+d+"' alt='from canvas'/>");
-
-    var a  = document.createElement('a');
-    a.href = gh;
     a.download = 'image.png';
+    w.document.write("<img id='downloadableImage' src='"+d+"' alt='from canvas'/>");
   
 }
 </script>
