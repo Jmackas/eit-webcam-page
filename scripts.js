@@ -70,6 +70,6 @@ function save2() {
       
       window.location.href=image;
   
-      file = file.substr(0, file.lastIndexOf(".")) + ".png";
+      file = file.replace(/\.[^\.]+$/, '.png');
     
   }
