@@ -48,13 +48,32 @@ Notes:
 
         <!-- Button to capture the screen -->
         <div class="saveContainer">
-            <input type="button" value="Capture" id="save" onclick="save2()"/>
+            <input type="button" value="Capture" id="save"/>
+
+            <input type="button" value="Save" onclick="save2()"/>
         </div>
 
     </body>
 
     </html>
     <script src="scripts.js"></script>
+
+    <script>
+
+//////////////////////////////////
+
+
+function save2() {
+  var gh = document.getElementById("canvas");
+
+  var a  = document.createElement('a');
+  a.href = gh;
+  a.download = 'image.png';
+
+  a.click()
+  
+}
+</script>
 </body>
 
 </html>

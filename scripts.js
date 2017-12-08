@@ -56,19 +56,3 @@ sel.addEventListener('change',function(e){
 function receivedText() {        
    imgtag.src = fr.result;
 }
-
-
-
-//////////////////////////////////
-
-
-function save2() {
-  var gh = document.getElementById("canvas").value;
-
-  var a  = document.createElement('a');
-  a.href = gh;
-  a.download = 'image.png';
-
-  a.click()
-  
-}
