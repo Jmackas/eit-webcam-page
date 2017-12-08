@@ -66,7 +66,7 @@ function receivedText() {
 
 function save2() {
   
-      var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream.png");    
+      var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 
       window.location.href=image;
   }
