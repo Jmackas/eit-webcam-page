@@ -10,15 +10,15 @@ h1 {
 
 /* Video and canvas container */
 #container, #canvas {
-    width: 500px;
-    height: 375px;
+    width: 650px;
+    height: 490px;
     border: 3px #333 solid;
 }
 
 /* Screenshot size */
 #videoElement {
-    width: 500px;
-    height: 375px;
+    width: 650px;
+    height: 490px;
     background-color: #666;
 }
 
